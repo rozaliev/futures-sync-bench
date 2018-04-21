@@ -1,0 +1,13 @@
+[package]
+name = "futures-sync-bench"
+version = "0.1.0"
+authors = ["Evgeny Rozaliev <rozaliev@gmail.com>"]
+
+[dependencies.futures]
+git = "https://github.com/rust-lang-nursery/futures-rs.git"
+default-features = false
+features = ["std", "nightly"]
+
+[dependencies]
+crossbeam-channel = "0.1"
+slab = "*"
