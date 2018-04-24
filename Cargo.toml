@@ -11,3 +11,10 @@ features = ["std", "nightly"]
 [dependencies]
 crossbeam-channel = "0.1"
 slab = "*"
+
+[dev-dependencies]
+criterion = "0.2"
+
+[[bench]]
+name = "ring"
+harness = false

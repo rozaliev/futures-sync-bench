@@ -6,5 +6,5 @@ extern crate futures;
 extern crate slab;
 extern crate test;
 
-mod cases;
-mod executor;
+pub mod cases;
+pub mod executor;
